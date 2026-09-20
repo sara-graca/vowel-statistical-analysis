@@ -1,0 +1,14 @@
+[workspace]
+authors = ["sara-graca <saravsgraca@gmail.com>"]
+channels = ["conda-forge"]
+name = "statistical-vowel-analysis"
+platforms = ["win-64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+python = ">=3.14.7,<3.15"
+numpy = ">=2.5.3,<3"
+pandas = ">=3.0.6,<4"
+matplotlib = ">=3.11.2,<4"
