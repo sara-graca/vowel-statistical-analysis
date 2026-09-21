@@ -8,7 +8,12 @@ version = "0.1.0"
 [tasks]
 
 [dependencies]
-python = ">=3.14.7,<3.15"
-numpy = ">=2.5.3,<3"
-pandas = ">=3.0.6,<4"
-matplotlib = ">=3.11.2,<4"
+python = ">=3.12,<3.13"
+numpy = ">=1.26,<2"
+pandas = ">=2.2,<3"
+matplotlib = ">=3.8,<3.10"
+ipykernel = ">=6.29,<7"
+pyzmq = ">=25,<26"
+
+[activation.env]
+KMP_DUPLICATE_LIB_OK = "TRUE"
